@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A86BDD93-AD7C-4EA2-AE49-54C3BCC6A5E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F854748-F62F-4C90-ACBC-7B40F03D3ADB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MiddlewareSorter", "src\MiddlewareSorter\MiddlewareSorter.xproj", "{05546978-1750-4C5D-BA50-1FC5DB22EA4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2690B821-99F5-42B8-A8A3-A79A5E26C6E2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MiddlewareSorter.Tests", "test\MiddlewareSorter.Tests\MiddlewareSorter.Tests.xproj", "{48A53E81-E3E0-4473-BFB3-51BE931CB8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05546978-1750-4C5D-BA50-1FC5DB22EA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05546978-1750-4C5D-BA50-1FC5DB22EA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05546978-1750-4C5D-BA50-1FC5DB22EA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05546978-1750-4C5D-BA50-1FC5DB22EA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A53E81-E3E0-4473-BFB3-51BE931CB8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A53E81-E3E0-4473-BFB3-51BE931CB8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A53E81-E3E0-4473-BFB3-51BE931CB8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A53E81-E3E0-4473-BFB3-51BE931CB8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05546978-1750-4C5D-BA50-1FC5DB22EA4A} = {A86BDD93-AD7C-4EA2-AE49-54C3BCC6A5E5}
+		{48A53E81-E3E0-4473-BFB3-51BE931CB8EA} = {2690B821-99F5-42B8-A8A3-A79A5E26C6E2}
+	EndGlobalSection
+EndGlobal
