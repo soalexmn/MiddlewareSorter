@@ -1,2 +1,2 @@
 # MiddlewareSorter
-middleware sorter addon for asp.net sore
+middleware sorter addon for asp.net core
